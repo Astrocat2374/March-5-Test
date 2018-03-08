@@ -5,11 +5,22 @@ var question10 = [
 	"fourth"
 ];
 
-function removeLast () {
-	//Umm... I can't remember. Is it like... hmm...
-	var i = array.length(question10) - 2
-	var question10 = 1
-	return question10[3]
+var num = 1;
+
+var me{
+	firstname: "Evan",
+	lastname: "Sugiyama",
+	age: 16
 }
 
-console.log(removeLast())
+(function () {
+	question10.pop();
+	question10.push(num);
+	for (var i = 0; i < question10.length; i++) {
+		var node = document.createElement("LI");
+		var arr = document.createTextNode(question10[i])
+		document.getElementById("fourth").appendChild(node);
+		node.appendChild(arr);
+	}
+	
+}());
